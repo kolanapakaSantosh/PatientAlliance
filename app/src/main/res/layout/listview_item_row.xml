@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
+    android:background="#FAFAFA"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="9dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="10dp"
+            android:paddingTop="0dp">
+
+            <ImageView
+                android:id="@+id/imageViewIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+android:layout_gravity="center"
+                android:src="@drawable/icn_rp_edit" />
+
+        </LinearLayout>
+        <!--<ImageView
+            android:id="@+id/imageViewIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="3dp"
+            android:layout_marginLeft="9dp"
+            android:src="@drawable/icn_rp_edit" />-->
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:paddingRight="10dp"
+            android:text="Folder name here."
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/app_color"
+        android:paddingBottom="3dp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

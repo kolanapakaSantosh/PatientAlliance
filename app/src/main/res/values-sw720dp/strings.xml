@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="title_license">License Agreement</string>
+    <string name="title_policy">Privacy Policy</string>
+    <string name="title_portallogin">Portal Login</string>
+    <string name="title_storeregistration">Pharmacy Registration</string>
+    <string name="title_patientregistration">Patient Registration</string>
+
+
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+
+    <dimen name="loginbtn_marginbottom">-40dp</dimen>
+    <dimen name="loginbtn_marginleft_right">18dp</dimen>
+    <dimen name="loginbtn_padding">15dp</dimen>
+    <dimen name="login_forgotpasswd_newuser">14sp</dimen>
+    <dimen name="login_bottom_appname">16sp</dimen>
+    <dimen name="login_bottom_appname_topmargin">20dp</dimen>
+    <dimen name="loginscreen_brandname">42sp</dimen>
+    <dimen name="loginscreen_brandname_caption">9sp</dimen>
+    <dimen name="loginscreen_marginbottom">17dp</dimen>
+    <dimen name="loginscreen_layoutmargin">32dp</dimen>
+    <dimen name="loginscreen_edittext_padding">14dp</dimen>
+    <dimen name="login_welcome_font">24sp</dimen>
+    <dimen name="drawerlist_width">260dp</dimen>
+    <dimen name="divider">1dp</dimen>
+    <dimen name="L1_font">16sp</dimen>
+
+    <item name="signup_edittext_ems" format="integer" type="integer">15</item>
+    <item name="edittext_emsvalue" format="integer" type="integer">13</item>
+    <item name="edittext_emsvalue_10" format="integer" type="integer">15</item>
+
+    <!--Main Screen -->
+    <dimen name="main_screen_title_text_size">22sp</dimen>
+    <dimen name="main_screen_menu_title_text_size">20sp</dimen>
+</resources>

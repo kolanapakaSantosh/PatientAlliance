@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.5"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@color/actionbar_blue_transparent">
+
+    <ImageView
+        android:id="@+id/cm_home_new_campaign"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icn_clock"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cm_home_new_campaign"
+        android:text="@string/new_campaign"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/main_screen_title_text_size"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@color/color_dark_green"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/cm_home_search_campaign"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icn_clock"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cm_home_search_campaign"
+            android:text="@string/search_campaign"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/main_screen_title_text_size"
+            android:textColor="@android:color/white"/>
+
+
+    </RelativeLayout>
+</LinearLayout>
