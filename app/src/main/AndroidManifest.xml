@@ -29,7 +29,8 @@
         <activity
             android:name=".activities.HomeActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Base"></activity>
+            android:theme="@style/AppTheme.Base" />
+        <activity android:name=".activities.LeadSearchDisplayActivity"></activity>
     </application>
 
 </manifest>

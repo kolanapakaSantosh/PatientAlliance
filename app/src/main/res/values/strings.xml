@@ -26,5 +26,22 @@
 
     <string name="allowdigits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
 
+    <string name="reset">Reset</string>
+    <string name="search">Search</string>
+    <string name="gender">Gender</string>
+    <string name="fullname">Full Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="dob">DOB</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="diagnosis">Diagnosis/ICD 10 Codes</string>
+    <string name="city">City</string>
+    <string name="branch">Branch</string>
+    <string name="package_campaign">Package/Campaign</string>
+    <string name="speciality">Speciality</string>
+    <string name="lead_reply">Lead Reply</string>
+    <string name="mobile">Mobile</string>
 
 </resources>

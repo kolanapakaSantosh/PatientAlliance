@@ -25,7 +25,6 @@
         <item name="android:activatedBackgroundIndicator">@drawable/listitem_background</item>-->
 
 
-
     </style>
 
     <style name="MyMenuTextAppearance" parent="android:TextAppearance.Holo.Widget.ActionBar.Menu">
@@ -36,7 +35,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
 
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-       <!-- <item name="android:typeface">serif</item>-->
+        <!-- <item name="android:typeface">serif</item>-->
         <item name="android:buttonStyle">@style/Button</item>
         <item name="toolbarStyle">@style/Widget.Toolbar</item>
         <!--<item name="colorAccent">@drawable/light_orange</item>
@@ -96,7 +95,7 @@
         <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
     </style>
 
-    <style name="WindowTitleBackground" >
+    <style name="WindowTitleBackground">
         <item name="android:background">@android:color/transparent</item>
     </style>
     <!-- <item name="android:background">?android:selectableItemBackground</item> -->
@@ -107,5 +106,43 @@
         <!--<item name="font">SourceSansPro-Regular.ttf</item>-->
     </style>
 
+    <style name="both_match">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
 
+    <style name="match_zero">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="both_wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="zero_match">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="zero_wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="match_wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="edit_text_leadsearch" parent="match_wrap">
+
+        <item name="android:background">@drawable/edittext_bg_leadsearch</item>
+        <item name="android:textSize">@dimen/text_size_boody_leadsearch</item>
+        <item name="android:textColor">@color/colorSecondaryGray3</item>
+        <item name="android:textColorHint">@color/colorSecondaryGray3</item>
+        <item name="android:padding">@dimen/padding_edittext</item>
+
+    </style>
 </resources>

@@ -29,5 +29,6 @@
     <color name="light_orange">#FFE13C</color>
     <color name="focused">#ff5500</color>
     <color name="color_dark_green">#6B8E23</color>
+    <color name="dark_blue_bg">#264979</color>
 
 </resources>

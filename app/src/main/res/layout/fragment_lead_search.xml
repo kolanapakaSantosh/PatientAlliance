@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/both_match"
+    android:background="@drawable/app_bgcolor"
+    tools:context="com.scottline.patientalliance.fragments.campign.LeadSearchFragment">
+
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dark_blue_bg"
+        android:orientation="horizontal">
+
+        <com.scottline.patientalliance.customviews.Textview_RobotRegular
+            style="@style/zero_match"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/reset"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+        <com.scottline.patientalliance.customviews.Textview_RobotRegular
+            android:id="@+id/textview_RobotRegular"
+            style="@style/zero_match"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/search"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/bottom_layout"
+        android:background="@android:color/white" />
+
+    <ScrollView
+        style="@style/both_match"
+        android:layout_above="@id/bottom_bar"
+        android:layout_margin="@dimen/pad_lead_search"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/both_match"
+            android:orientation="vertical">
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:hint="@string/first_name" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/last_name" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/city" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/dob" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/phone_number" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/email" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/zip_code" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/lead_reply" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/diagnosis" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/branch" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/package_campaign" />
+
+            <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+                style="@style/edit_text_leadsearch"
+                android:layout_marginTop="@dimen/pad_10"
+                android:hint="@string/speciality" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

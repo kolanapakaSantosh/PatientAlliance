@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lead_search_display"
+    style="@style/both_match"
+    tools:context="com.scottline.patientalliance.activities.LeadSearchDisplayActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_leadsearch"
+        style="@style/both_match" />
+</RelativeLayout>
