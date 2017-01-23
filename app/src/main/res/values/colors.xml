@@ -7,9 +7,9 @@
     <drawable name="focused">#ff5500</drawable>
     <drawable name="selected">#FF00FF</drawable>
     <color name="color_marron">#9d2235</color>
-    
-     <!--<color name="primaryColor">#2196F3</color>
-    <color name="primaryColorDark">#0D47A1</color>-->
+
+    <!--<color name="primaryColor">#2196F3</color>
+   <color name="primaryColorDark">#0D47A1</color>-->
 
     <color name="actionbar_blue_transparent">#0062B6</color>
     <color name="black_87percent">#DE000000</color>
@@ -30,5 +30,12 @@
     <color name="focused">#ff5500</color>
     <color name="color_dark_green">#6B8E23</color>
     <color name="dark_blue_bg">#264979</color>
+    <color name="insurance_background_color">#1aa4ad</color>
+    <color name="green">#7cae41</color>
+    <color name="insurance_screen_bg">#1aa4ad</color>
+    <color name="dark_black">#626363</color>
+    <color name="list_alternate_light_blue">#c6e8ef</color>
+    <color name="cusromer_service_bg">#8ab6db</color>
+    <color name="white">#ffffff</color>
 
 </resources>

@@ -1,0 +1,410 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/both_match"
+    android:background="@color/green"
+    tools:context="com.scottline.patientalliance.patientdemographic.PatientDemographicBasicInfo">
+
+    <LinearLayout
+        style="@style/both_match"
+        android:background="@color/green"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/record_id"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/title"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/last_name"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/dob"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/gender"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/age"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/phone_number"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/email"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/profession"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/company"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/doctor"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/city"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/state"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/zip_code"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/allergies"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/family_history"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/encounter"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/personal_history"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/notes"
+                android:textColor="@android:color/white" />
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <com.scottline.patientalliance.customviews.Textview_RobotRegular
+                style="@style/zero_wrap"
+                android:layout_weight="40"
+                android:gravity="center|end"
+                android:padding="@dimen/pad_5"
+                android:text="@string/payment_type"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                style="@style/zero_wrap"
+                android:layout_weight="60"
+                android:padding="@dimen/pad_5">
+
+                <RadioGroup
+                    style="@style/both_wrap"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_patient_type"
+                        style="@style/both_wrap"
+                        android:text="@string/patient" />
+
+                    <RadioButton
+                        android:id="@+id/radio_insurance_type"
+                        style="@style/both_wrap"
+                        android:text="@string/insurance" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

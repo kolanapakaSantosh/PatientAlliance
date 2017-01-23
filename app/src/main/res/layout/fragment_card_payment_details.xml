@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/both_match"
+    android:background="@color/insurance_background_color"
+    tools:context="com.scottline.patientalliance.patientdemographic.CardPaymentDetailsFragment">
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_edittext">
+
+        <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+            android:id="@+id/edittext_firstname"
+            style="@style/edit_text_leadsearch"
+            android:hint="@string/first_name" />
+
+        <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+            android:id="@+id/edittext_lastname"
+            style="@style/edit_text_leadsearch"
+            android:layout_marginTop="@dimen/pad_10"
+            android:hint="@string/last_name" />
+
+        <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+            android:id="@+id/edittext_card_type"
+            style="@style/edit_text_leadsearch"
+            android:layout_marginTop="@dimen/pad_10"
+            android:hint="@string/card_type" />
+
+        <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+            android:id="@+id/edittext_card_name"
+            style="@style/edit_text_leadsearch"
+            android:layout_marginTop="@dimen/pad_10"
+            android:hint="@string/card_name" />
+
+        <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+            android:id="@+id/edittext_card_number"
+            style="@style/edit_text_leadsearch"
+            android:layout_marginTop="@dimen/pad_10"
+            android:hint="@string/card_number" />
+
+        <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+            android:id="@+id/edittext_cvv"
+            style="@style/edit_text_leadsearch"
+            android:layout_marginTop="@dimen/pad_10"
+            android:hint="@string/card_cvv" />
+
+        <com.scottline.patientalliance.customviews.EditText_RobotoRegular
+            android:id="@+id/edittext_expiry_date"
+            style="@style/edit_text_leadsearch"
+            android:layout_marginTop="@dimen/pad_10"
+            android:hint="@string/expiry_date" />
+
+        <com.scottline.patientalliance.customviews.Button_RobotRegular
+            android:id="@+id/button_reset"
+            style="@style/both_wrap"
+            android:layout_marginRight="@dimen/padding_edittext"
+            android:layout_marginTop="@dimen/pad_10"
+            android:background="@drawable/button_bg_white"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:layout_gravity="end"
+            android:padding="@dimen/padding_edittext"
+            android:text="@string/save"
+            android:textColor="@color/black_87percent" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

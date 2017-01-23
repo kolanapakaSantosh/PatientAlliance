@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="horizontal">
+
+    <com.scottline.patientalliance.customviews.Textview_RobotRegular
+        android:id="@+id/textview_insurance_type"
+        style="@style/zero_wrap"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/pad_5"
+        android:text="@string/type"
+        android:textColor="@android:color/white" />
+
+    <com.scottline.patientalliance.customviews.Textview_RobotRegular
+        android:id="@+id/textview_insurance_number"
+        style="@style/zero_wrap"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/pad_5"
+        android:text="@string/number"
+        android:textColor="@android:color/white" />
+
+    <com.scottline.patientalliance.customviews.Textview_RobotRegular
+        android:id="@+id/textview_insurance_groupcode"
+        style="@style/zero_wrap"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/pad_5"
+        android:text="@string/groupcode"
+        android:textColor="@android:color/white" />
+
+    <com.scottline.patientalliance.customviews.Textview_RobotRegular
+        android:id="@+id/textview_insurance_status"
+        style="@style/zero_wrap"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="@dimen/pad_5"
+        android:text="@string/statu"
+        android:textColor="@android:color/white" />
+
+    <com.scottline.patientalliance.customviews.Textview_RobotRegular
+        android:id="@+id/textview_insurance_action"
+        style="@style/zero_wrap"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/pad_5"
+        android:text="@string/action"
+        android:textColor="@android:color/white" />
+</LinearLayout>

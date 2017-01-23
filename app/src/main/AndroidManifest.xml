@@ -30,7 +30,8 @@
             android:name=".activities.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Base" />
-        <activity android:name=".activities.LeadSearchDisplayActivity"></activity>
+        <activity android:name=".activities.LeadSearchDisplayActivity"/>
+        <activity android:name=".patientdemographic.CustomerServiceList"/>
     </application>
 
 </manifest>

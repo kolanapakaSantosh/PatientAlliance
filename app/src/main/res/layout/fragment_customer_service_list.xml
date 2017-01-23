@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/both_match"
+    tools:context="com.scottline.patientalliance.patientdemographic.CustomerServiceList">
+
+    <android.support.v7.widget.RecyclerView
+        android:background="@color/cusromer_service_bg"
+        android:id="@+id/recyclerview_customerservicelist"
+        style="@style/both_match" />
+
+</LinearLayout>

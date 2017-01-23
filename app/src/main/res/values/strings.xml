@@ -43,5 +43,48 @@
     <string name="speciality">Speciality</string>
     <string name="lead_reply">Lead Reply</string>
     <string name="mobile">Mobile</string>
+    <string name="insurance">Insurance</string>
+    <string name="card_details">Card Details</string>
+    <string name="basic_info">Basic Info</string>
+    <string name="campaigns">Campaigns</string>
+    <string name="service">Service</string>
+    <!--patient demographic-->
 
+    <string name="record_id">M.Record ID</string>
+    <string name="title">Title</string>
+    <string name="age">Age</string>
+    <string name="profession">Profession</string>
+    <string name="company">Company</string>
+    <string name="doctor">Doctor</string>
+    <string name="state">State</string>
+    <string name="allergies">Allergies</string>
+    <string name="family_history">Family History</string>
+    <string name="encounter">Encounter</string>
+    <string name="personal_history">Personal History</string>
+    <string name="notes">Notes</string>
+    <string name="payment_type">Patient Type</string>
+    <string name="patient">Patient</string>
+    <!--Insurance screen-->
+
+    <string name="insurance_type">Insurance Type</string>
+    <string name="insurance_category">Insurance Category</string>
+    <string name="insurance_number">Insurance Number</string>
+    <string name="insurance_plan_name">Insurance Plan Name / Program Name</string>
+    <string name="add">Add</string>
+    <string name="type">Type</string>
+    <string name="number">Number</string>
+    <string name="groupcode">Group Code</string>
+    <string name="statu">Status</string>
+    <string name="action">Action</string>
+    <string name="card_type">Card Type</string>
+    <string name="card_name">Name on the card</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_cvv">CVV</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="save">Save</string>
+
+    <!--pd services-->
+    <string name="campaign_code">Campaign Code</string>
+    <string name="service_type">Service Type</string>
+    <string name="service_date">Service Date</string>
 </resources>

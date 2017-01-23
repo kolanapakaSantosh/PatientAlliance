@@ -32,7 +32,7 @@ public class LeadSearchAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
     @Override
     public int getItemCount() {
-        return 0;
+        return 2;
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {

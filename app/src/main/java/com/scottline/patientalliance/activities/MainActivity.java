@@ -20,6 +20,8 @@ import android.widget.TextView;
 import com.scottline.patientalliance.R;
 import com.scottline.patientalliance.adapters.Drawer_listview_adapter;
 import com.scottline.patientalliance.fragments.campign.CMHomeFragment;
+import com.scottline.patientalliance.fragments.campign.LeadSearchFragment;
+import com.scottline.patientalliance.patientdemographic.CustomerDetailsFragment;
 
 import java.util.HashMap;
 
@@ -118,7 +120,14 @@ public class MainActivity extends AppCompatActivity {
         if (getIntent().getExtras() != null) {
             if (getIntent().getExtras().getInt("from") == 2) {
                 selectItem(MenuItems.Campaign.toString(), false, 2);
+            }else if (getIntent().getExtras().getInt("from") == 3) {
+                selectItem(MenuItems.LeadSearch.toString(), false, 3);
+            }else if (getIntent().getExtras().getInt("from") == 3) {
+                selectItem(MenuItems.LeadSearch.toString(), false, 3);
+            }else if (getIntent().getExtras().getInt("from") == 4) {
+                selectItem(MenuItems.CustomerService.toString(), false, 4);
             }
+
         }
     }
 
@@ -128,6 +137,12 @@ public class MainActivity extends AppCompatActivity {
         switch (MenuItems.valueOf(label)) {
             case Campaign:
                 fragment = new CMHomeFragment();
+                break;
+            case LeadSearch:
+                fragment=new LeadSearchFragment();
+                break;
+            case CustomerService:
+                fragment= new CustomerDetailsFragment();
                 break;
         }
         if (fragment != null) {
@@ -185,6 +200,8 @@ public class MainActivity extends AppCompatActivity {
 
     private enum MenuItems {
         Home,
-        Campaign
+        Campaign,
+        LeadSearch,
+        CustomerService
     }
 }
